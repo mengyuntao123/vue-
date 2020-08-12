@@ -1,0 +1,45 @@
+{
+    "data": {
+        "userInfo": {},
+        "userPopedoms": [
+            {
+                "moduleGroupId": 1,
+                "moduleGroupName": "仪表盘",
+                "requestMapping": "dash-board"
+            },
+            {
+                "moduleGroupId": 2,
+                "moduleGroupName": "工作台",
+                "requestMapping": "work-bench",
+                "moduleList": [
+                    {
+                        
+                        "moduleGroupName": "待办事项",
+                        "requestMapping": "todo-list",
+                        "moduleGroupId": 8
+                    },
+                    {
+                       
+                        "moduleGroupName": "我的足迹",
+                        "requestMapping": "my-footprint",
+                        "moduleGroupId": 9
+                    }
+                ]
+            },
+            {
+                "moduleGroupId": 5,
+                "moduleGroupName": "系统管理",
+                "requestMapping": "sys-manage",
+                "moduleList": [
+                    {
+                        
+                        "moduleGroupName": "系统日志",
+                        "requestMapping": "sys-log",
+                        "moduleGroupId": 7
+                    }
+                ]
+            }
+           
+        ]
+    }
+}

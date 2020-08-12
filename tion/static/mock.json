@@ -1,0 +1,151 @@
+{
+    "data": {
+        "userInfo": {},
+        "userPopedoms": [
+            {
+                "moduleGroupId": 1,
+                "moduleGroupName": "首页",
+                "requestMapping": "dash-board"
+            },
+            {
+                "moduleGroupId": 2,
+                "moduleGroupName": "库房管理",
+                "requestMapping": "work-bench",
+                "moduleList": [
+                    {
+                        "moduleId": 3,
+                        "moduleGroupName": "待办事项",
+                        "requestMapping": "todo-list",
+                        "moduleGroupId": 5
+                    },
+                    {
+                        "moduleId": 4,
+                        "moduleGroupName": "我的足迹",
+                        "requestMapping": "my-footprint",
+                        "moduleGroupId": 9
+                    }
+                ]
+            },
+            {
+                "moduleGroupId": 5,
+                "moduleGroupName": "日常管理",
+                "requestMapping": "sys-manage",
+                "moduleList": [
+                    {
+                        "moduleId": 6,
+                        "moduleGroupName": "系统日志",
+                        "requestMapping": "sys-log",
+                        "moduleGroupId": 7
+                    },
+                
+                    {
+                        "moduleId": 8,
+                        "moduleGroupName": "系统维护",
+                        "requestMapping": "sys-maintain",
+                        "moduleGroupId": 9
+                    }
+                ]
+            },
+            {
+                "moduleGroupId": 6,
+                "moduleGroupName": "运输管理",
+                "requestMapping": "transportation",
+                "moduleList": [
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "查询",
+                        "requestMapping": "users",
+                        "moduleGroupId": 19
+                    }
+                
+                    
+                ]
+            },
+            {
+                "moduleGroupId": 6,
+                "moduleGroupName": "保护管理",
+                "requestMapping": "defend",
+                "moduleList": [
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "查询",
+                        "requestMapping": "users",
+                        "moduleGroupId": 19
+                    }
+                
+                    
+                ]
+            },
+            
+            {
+                "moduleGroupId": 13,
+                "moduleGroupName": "统计查询",
+                "requestMapping": "tati-query",
+                "moduleList": [
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "查询",
+                        "requestMapping": "tatistic",
+                        "moduleGroupId": 19
+                    },
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "统计",
+                        "requestMapping": "query",
+                        "moduleGroupId": 19
+                    }
+                
+                    
+                ]
+            },
+            {
+                "moduleGroupId": 13,
+                "moduleGroupName": "日志管理",
+                "requestMapping": "log",
+                "moduleList": [
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "查询",
+                        "requestMapping": "tatistic",
+                        "moduleGroupId": 19
+                    },
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "统计",
+                        "requestMapping": "query",
+                        "moduleGroupId": 19
+                    }
+                
+                    
+                ]
+            },
+            {
+                "moduleGroupId": 13,
+                "moduleGroupName": "系统管理",
+                "requestMapping": "system",
+                "moduleList": [
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "查询",
+                        "requestMapping": "tatistic",
+                        "moduleGroupId": 19
+                    },
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "统计",
+                        "requestMapping": "query",
+                        "moduleGroupId": 19
+                    }
+                    
+                    
+                ]
+            },
+            {
+                "moduleGroupId":12,
+                "moduleGroupName":"欢迎",
+                "requestMapping":"welcome"
+            }
+           
+        ]
+    }
+}
