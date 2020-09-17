@@ -28,7 +28,7 @@
         ></el-input>
       </el-form-item>
       <el-form-item class="form-btn">
-        <el-button type="primary" @click="submit('loginFormRef')"
+        <el-button type="primary" @click="submit()"
           >登&emsp;录</el-button
         >
         <el-button type="info" @click="resetForm('loginFormRef')"
@@ -41,7 +41,8 @@
 </template>
 
 <script>
-let that=null
+// let that=null;
+import {login} from  "../api"
 export default {
   data() {
     return {
@@ -60,7 +61,7 @@ export default {
     }
   },
   mounted(){
-      that=this
+      // that=this
   },
   methods: {
       
@@ -78,10 +79,8 @@ export default {
       // }
 
       submit() {
-      // this.$router.push({name:"home"})
-     this.$refs.loginFormRef.validate(valid => {
-        console.log(valid)
-      })
+          let data= login(this.loginForm.uname) ;
+          console.log(data)    
 
     },
     resetForm(form) {
@@ -90,6 +89,12 @@ export default {
   },
   components: {
 
+  },
+  created(){
+    this.axios.post("http://192.168.2.128:8888/test")
+    .then(ret=>{
+      console.log(ret)
+    })
   }
 }
 </script>

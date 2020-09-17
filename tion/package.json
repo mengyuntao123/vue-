@@ -17,6 +17,7 @@
     "axios": "^0.19.2",
     "echarts": "^4.8.0",
     "element-ui": "^2.13.2",
+    "express": "^4.17.1",
     "file-saver": "^2.0.2",
     "less-loader": "^4.1.0",
     "vue": "^2.5.2",

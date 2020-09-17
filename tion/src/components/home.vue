@@ -47,8 +47,8 @@
 </template>
 
 <script>
-import Aside from "../components/home/aside"
-import Bread from "../components/home/breadcrumb"
+import Aside from "../components/layout/aside"
+import Bread from "../components/layout/breadcrumb"
 export default {
   
   data () {

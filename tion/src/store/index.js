@@ -16,7 +16,7 @@ const store =new Vuex.Store({
             this.state.options.push(data);
           },
           // 删除tabs
-          delete_tabs (state, route) {
+        delete_tabs (state, route) {
             
             let index = 0;
             for (let option of state.options) {
@@ -29,7 +29,7 @@ const store =new Vuex.Store({
             this.state.options.splice(index, 1);
           },
           // 设置当前激活的tab
-          set_active_index (state, index) {
+        set_active_index (state, index) {
             this.state.activeIndex = index;
           
           },

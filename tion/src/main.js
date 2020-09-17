@@ -8,11 +8,6 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
 
-// import { HappyScroll } from 'vue-happy-scroll'
-// //自定义组件名
-// Vue.component('happy-scroll', HappyScroll)
-// // 引入css
-// import 'vue-happy-scroll/docs/happy-scroll.css'
 
 
 import 'babel-polyfill';
@@ -25,22 +20,13 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 
 Vue.prototype.$axios = axios
-axios.defaults.baseURL="/api"
 Vue.use(VueAxios, axios)
 
 Vue.config.productionTip = false
 
 
 
-Vue.filter('dateFilter', function (val) {
 
-
-  // console.log(val)
-  
-  
-  
-  
-  })
 
   
 
