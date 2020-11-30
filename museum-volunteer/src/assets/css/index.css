@@ -1,0 +1,48 @@
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 200px;
+  /* min-height: 400px; */
+}
+.el-table__header{
+  width: 100% !important;
+}
+.el-table__body{
+  width: 100% !important;
+}
+.success{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.success div{
+  width: 65%;
+  display: flex;
+}
+
+.el-input{
+  margin-right: 12px;
+}
+.el-select{
+  margin-right: 12px;
+}
+.el-pagination{
+  text-align: center;
+  margin-top: 12px;
+}
+.el-button{
+  border-radius: 6px;
+}
+.el-icon-search{
+  font-size: 20px;
+  color: #25a0fe;
+  margin-left: 6px;
+}
+p{
+color:black
+}
+.el-message-box__message p{
+  font-size: 20px;
+  margin-top: 6px;
+}
+.has-gutter tr{
+  border-right: 1px red solid;
+}

@@ -1,0 +1,174 @@
+{
+  "data": {
+      "userInfo": {},
+      "userPopedoms": [
+          {
+              "moduleGroupId": 1,
+              "moduleGroupName": "首页",
+              "requestMapping": "dash-board",
+              "icon":"el-icon-platform-eleme"
+          },
+          {
+              "moduleGroupId": 2,
+              "moduleGroupName": "团队管理",
+              "requestMapping": "work-bench",
+              "icon":"el-icon-eleme",
+              "moduleList": [
+                  {
+                      "moduleId": 3,
+                      "moduleGroupName": "团队创建",
+                      "requestMapping": "users",
+                      "moduleGroupId": 5
+                  },
+                  {
+                      "moduleId": 4,
+                      "moduleGroupName": "团队审核",
+                      "requestMapping": "my-footprint",
+                      "moduleGroupId": 9
+                  }
+                  
+              ]
+          },
+          {
+              "moduleGroupId": 5,
+              "moduleGroupName": "预约管理",
+              "requestMapping": "sys-manage",
+              "icon":"el-icon-delete-solid",
+              "moduleList": [
+                  {
+                      "moduleId": 6,
+                      "moduleGroupName": "预约查询",
+                      "requestMapping": "sys-log",
+                      "moduleGroupId": 7
+                  },
+              
+                  {
+                      "moduleId": 8,
+                      "moduleGroupName": "预约创建",
+                      "requestMapping": "makeCreate",
+                      "moduleGroupId": 9
+                  },
+                  {
+                    "moduleId": 8,
+                    "moduleGroupName": "预约设置",
+                    "requestMapping": "sys-maintain",
+                    "moduleGroupId": 9
+                }
+              ]
+          },
+          {
+            "moduleGroupId":12,
+            "moduleGroupName":"导览租赁",
+            "requestMapping":"guide",
+            "icon":"el-icon-success"
+        },
+          {
+              "moduleGroupId": 6,
+              "moduleGroupName": "讲解员管理",
+              "requestMapping": "defend",
+              "icon":"el-icon-setting",
+              "moduleList": [
+                  {
+                      "moduleId": 9,
+                      "moduleGroupName": "讲解员登记",
+                      "requestMapping": "checkIn",
+                      "moduleGroupId": 19
+                  },
+                  {
+                    "moduleId": 9,
+                    "moduleGroupName": "讲解员考勤",
+                    "requestMapping": "clockingIn",
+                    "moduleGroupId": 19
+                },
+                  {
+                    "moduleId": 9,
+                    "moduleGroupName": "讲解员考核",
+                    "requestMapping": "assessIn",
+                    "moduleGroupId": 19
+                },
+                  {
+                    "moduleId": 9,
+                    "moduleGroupName": "讲解员服务管理",
+                    "requestMapping": "serveIn",
+                    "moduleGroupId": 19
+                }
+                
+
+
+
+              
+                  
+              ]
+          },
+
+          {
+            "moduleGroupId": 6,
+            "moduleGroupName": "统计查询",
+            "requestMapping": "echart",
+            "icon":"el-icon-setting"
+
+        },
+        {
+          "moduleGroupId": 6,
+          "moduleGroupName": "日志管理",
+          "requestMapping": "dend",
+          "icon":"el-icon-setting",
+          "moduleList": [
+              {
+                  "moduleId": 9,
+                  "moduleGroupName": "系统日志",
+                  "requestMapping": "todo-list",
+                  "moduleGroupId": 19
+              },
+              {
+                "moduleId": 9,
+                "moduleGroupName": "操作日志",
+                "requestMapping": "operaLog",
+                "moduleGroupId": 19
+            }
+          
+              
+          ]
+      },
+       
+          {
+              "moduleGroupId":12,
+              "moduleGroupName":"系统功能",
+              "requestMapping":"welcome",
+              "icon":"el-icon-success"
+          },
+
+          
+          {
+              "moduleGroupId": 13,
+              "name": "系统管理",
+              "requestMapping": "system",
+              "icon":"el-icon-goods",
+              "moduleList": [
+                  {
+                      "moduleId": 9,
+                      "name": "用户管理",
+                      "url": "query",
+                      "moduleGroupId": 19
+                  },
+                  {
+                      "moduleId": 9,
+                      "name": "角色管理",
+                      "url": "roleMange",
+                      "moduleGroupId": 19
+                  },
+                  {
+                    "moduleId": 9,
+                    "name": "权限管理",
+                    "url": "permission",
+                    "moduleGroupId": 19
+                }
+                  
+                  
+              ]
+          }
+          
+         
+      ]
+  }
+}

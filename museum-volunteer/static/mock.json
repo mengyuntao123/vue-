@@ -1,0 +1,40 @@
+{
+    "data": {
+        "userInfo": {},
+        "userPopedoms": [
+            
+
+            
+            {
+                "moduleGroupId": 13,
+                "moduleGroupName": "系统管理",
+                "requestMapping": "system",
+                "icon":"el-icon-goods",
+                "moduleList": [
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "用户管理",
+                        "requestMapping": "query",
+                        "moduleGroupId": 19
+                    },
+                    {
+                        "moduleId": 9,
+                        "moduleGroupName": "角色管理",
+                        "requestMapping": "roleMange",
+                        "moduleGroupId": 19
+                    },
+                    {
+                      "moduleId": 9,
+                      "moduleGroupName": "权限管理",
+                      "requestMapping": "permission",
+                      "moduleGroupId": 19
+                  }
+                    
+                    
+                ]
+            }
+            
+           
+        ]
+    }
+}
